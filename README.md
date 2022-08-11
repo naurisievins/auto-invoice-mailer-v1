@@ -13,12 +13,14 @@ This application is made for local use. For ease of use try "PHP Desktop".
     - $mail->Password   = '';
 
 --- HOW DOES IT WORK ---
+
 First you need to create a client database in xlsx format. 
 If you want to send an invoice you have to:
     - set xlsx file and invoice directory locations in path.php;
     - set "1" in the "send" column in xlsx file;
     - place invoice file in the invoice directory;
     - invoice file must start with "invoice identificator";
+    
 Mail won't be sent if there is no invoice file found or there are more than 1 file found.
 You can check log file for sent or failed to send mails.
 Log file can be cleared.
