@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-width:550px;
+    margin:20px;
+    background-color:#bbb;
+    padding:10px;
+    letter-spacing: 0.5px;
+}
+.greenBtn {
+    border:1px solid #0c3b0b;
+    background-color:#6c956b;
+    border-radius:5px;
+    padding:5px 10px 5px 10px;
+    font-weight:bold;
+    cursor:pointer;
+    margin:3px;
+}
+.greenBtn:hover {
+    background-color:#87b686;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.redBtn {
+    background-color:#cb7d7d;
+    border:1px solid #3b1111;
+    border-radius:5px;
+    padding:5px 10px 5px 10px;
+    font-weight:bold;
+    cursor:pointer;
+    margin:3px;
+}
+.redBtn:hover {
+    background-color: #ad5454;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+#info {
+    border:1px solid gray;
+    max-height:330px;
+    overflow-y:auto;
+    background: lightgray;
+    padding:5px;
+    border-radius:5px;
+}
+#xlsxTable {
+    max-height:350px;
+    overflow:hidden;
+    overflow-y:auto;
+    float:left;
+}
+table th, td{
+    padding: 8px;
+    border-bottom: 1px solid gray;
+    border:1px solid gray;
+    border-radius:5px;
+    background-color:lightgray;
+}
+table th:hover, td:hover{
+    background-color:#ddd9d9;
+}
+table {
+    border-radius: 5px;
+    border:1px solid gray;
+    border-spacing: 3px;
+    background-color:#cfcbcb;
+}
+h2 {
+    margin:5px 5px 10px 10px;
+    color:#c5c3c3;
+}
+table tr > td:last-of-type {
+    text-align:center;
+}
+p {
+    margin:10px;
+}
+#logFile {
+    max-width:1000px;
+    float:right;
+    max-height:340px;
+    overflow-y:auto;
+    background: #1e1e1b;
+    color:#cfcbcb;
+    border-radius:5px;
+    padding:5px;
+    line-height:25px;
+}
+#mainTable {
+    overflow:hidden;
+}
+#header {
+    overflow:hidden;
+    background-color:rgb(33, 37, 41);
+    margin-bottom:5px;
+    border-radius:5px;
+    height:33px;
+}
+#danger {
+    font-weight:bold;
+    background-color:rgba(255, 0, 0, 0.3);
+    border-radius:5px;
+    max-width:750px;
+    padding:2px;
+    margin:10px 0 0 10px;
+    text-align:center;
+}
+.floatLeft {
+    float:left;
+}
+.floatRight {
+    float:right;
+}
+.logBtn {
+    line-height:10px;
+    float:right;
+}
+#logForm {
+    overflow:hidden;
+    background-color:rgb(33 37 41);
+    border-radius:5px 5px 0 0;
+    height:33px;
+}
+#logBtnFrame {
+    border:1px solid #555553;
+    border-radius:5px;
+    overflow:hidden;
+    float:right;
+    align-content: center;
+}
+#logBtnFrame input[type=checkbox] {
+    margin-top:7px;
+    cursor:pointer;
+}
