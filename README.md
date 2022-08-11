@@ -16,6 +16,7 @@ This application is made for local use. For ease of use try "PHP Desktop".
 
 First you need to create a client database in xlsx format. 
 If you want to send an invoice you have to:
+    
     - set xlsx file and invoice directory locations in path.php;
     - set "1" in the "send" column in xlsx file;
     - place invoice file in the invoice directory;
