@@ -2,6 +2,9 @@
 This application is made for local use. For ease of use try "PHP Desktop".
 
 --- HOW TO USE ---
+
+First you need to create a client database in xlsx format. Use "database.xlsx" as example.
+
 1. Set location of xlsx file and invoice directory in path.php.
 2. Xlsx file is used as a client database.
     - column "e-mail address" - e-mail address where invoice will be sent to;
@@ -12,15 +15,9 @@ This application is made for local use. For ease of use try "PHP Desktop".
     - $mail->Username   = '';
     - $mail->Password   = '';
 
---- HOW DOES IT WORK ---
-
-First you need to create a client database in xlsx format. 
-To send an invoice you have to:
-    -set xlsx file and invoice directory locations in path.php;
-    -set "1" in the "send" column in xlsx file;
-    -place invoice file in the invoice directory;
-    -invoice file must start with "invoice identificator";  
 You won't be able to confirm sending if there is no invoice file or there is more than 1 file found.
+
 You can check log file for sent or failed mails.
+
 Log file can be cleared.
     
